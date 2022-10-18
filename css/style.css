@@ -1,0 +1,61 @@
+body {
+    background: #212121;
+}
+
+form {
+    width: 250px;
+    height: 350px;
+    border: 2px solid #44bd32;
+    border-radius: 20px;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 28px;
+    color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 210px;
+    border: 2px solid #44bd32;
+    border-radius: 15px;
+    outline: none;
+    padding: 10px;
+    margin-top: 10px;
+    background: transparent;
+    color: #fff;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    border: solid #44bd32;
+    border-radius: 15px;
+    width: 150px;
+    background: linear-gradient(#44bd32, #4cd137);
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 10px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.signup p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+a {
+    color: #44bd32;
+    text-decoration: none;
+}
